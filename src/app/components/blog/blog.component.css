@@ -1,0 +1,95 @@
+/* Container for the blog list */
+.blog-container {
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  padding: 20px;
+  background-color: #e8e8e8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0; /* No border radius to stretch across viewport */
+  overflow-y: auto; /* Scroll vertically if content exceeds height */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Blog heading */
+.blog-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #444;
+}
+
+/* Blog list - Flex display for cards */
+.blog-list {
+  display: flex;
+  flex-wrap: wrap; /* Wrap items into new rows */
+  gap: 20px; /* Space between cards */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1; /* Allow the list to take up remaining space */
+  justify-content: center; /* Center align the cards in each row */
+}
+
+/* Blog card */
+.blog-list li {
+  background-color: #333;
+  flex: 1 1 calc(20% - 20px); /* 5 cards per row */
+  max-width: calc(20% - 20px);
+  height: 180px; /* Fixed height for uniformity */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.blog-list li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  background-color: #494949;
+}
+
+/* Blog card content */
+.blog-list li h2 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #fff;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .blog-list li {
+    flex: 1 1 calc(25% - 20px); /* 4 cards per row on medium screens */
+    max-width: calc(25% - 20px);
+  }
+}
+
+@media (max-width: 900px) {
+  .blog-list li {
+    flex: 1 1 calc(33.333% - 20px); /* 3 cards per row on smaller screens */
+    max-width: calc(33.333% - 20px);
+  }
+}
+
+@media (max-width: 600px) {
+  .blog-list li {
+    flex: 1 1 calc(50% - 20px); /* 2 cards per row on very small screens */
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 400px) {
+  .blog-list li {
+    flex: 1 1 100%; /* 1 card per row on extra small screens */
+    max-width: 100%;
+  }
+}

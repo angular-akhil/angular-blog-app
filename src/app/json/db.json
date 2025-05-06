@@ -1,0 +1,416 @@
+{
+  "blog": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "Understanding Angular Routing",
+      "body": "Angular routing provides navigation capabilities between views..."
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "Component Communication in Angular",
+      "body": "Understanding how to share data between components in Angular..."
+    },
+    {
+      "userId": 1,
+      "id": 3,
+      "title": "Dependency Injection in Angular",
+      "body": "Learn how Angular's DI system works to manage services..."
+    },
+    {
+      "userId": 2,
+      "id": 4,
+      "title": "Working with Angular Directives",
+      "body": "Angular directives allow you to extend HTML functionality..."
+    },
+    {
+      "userId": 2,
+      "id": 5,
+      "title": "Data Binding in Angular",
+      "body": "Angular offers powerful data-binding mechanisms..."
+    },
+    {
+      "userId": 3,
+      "id": 6,
+      "title": "Understanding Angular Services",
+      "body": "Services in Angular help encapsulate reusable logic..."
+    },
+    {
+      "userId": 3,
+      "id": 7,
+      "title": "Introduction to Angular Pipes",
+      "body": "Learn how to transform data with Angular pipes..."
+    },
+    {
+      "userId": 3,
+      "id": 8,
+      "title": "Reactive Forms in Angular",
+      "body": "Explore the power of reactive forms for dynamic user inputs..."
+    },
+    {
+      "userId": 2,
+      "id": 9,
+      "title": "Angular Lifecycle Hooks",
+      "body": "Angular lifecycle hooks provide insights into component behavior..."
+    },
+    {
+      "userId": 4,
+      "id": 10,
+      "title": "Routing Guards in Angular",
+      "body": "Learn how to secure and control navigation with routing guards..."
+    }
+  ],
+  "comments": [
+    {
+      "postId": 1,
+      "id": 1,
+      "name": "Jane Smith",
+      "body": "Great explanation on Angular routing. Thanks for sharing!",
+      "email": "jane.smith@example.com"
+    },
+    {
+      "postId": 1,
+      "id": 2,
+      "name": "Alice Johnson",
+      "body": "This article helped me understand nested routes better.",
+      "email": "alice.johnson@example.com"
+    },
+    {
+      "postId": 2,
+      "id": 3,
+      "name": "Robert Brown",
+      "body": "I was confused about wildcard routing, but this post cleared it up!",
+      "email": "robert.brown@example.com"
+    },
+    {
+      "postId": 2,
+      "id": 4,
+      "name": "Emily Davis",
+      "body": "Very concise and well-written. Thanks for the tips on routerLink.",
+      "email": "emily.davis@example.com"
+    },
+    {
+      "postId": 3,
+      "id": 5,
+      "name": "Michael Wilson",
+      "body": "The examples provided were exactly what I needed. Great work!",
+      "email": "michael.wilson@example.com"
+    },
+    {
+      "postId": 3,
+      "id": 6,
+      "name": "Sarah Miller",
+      "body": "The step-by-step guide on query parameters was so helpful. Thank you!",
+      "email": "sarah.miller@example.com"
+    },
+    {
+      "postId": 4,
+      "id": 7,
+      "name": "David Moore",
+      "body": "I appreciate the simplicity of the explanations. Keep it up!",
+      "email": "david.moore@example.com"
+    },
+    {
+      "postId": 4,
+      "id": 8,
+      "name": "Laura Taylor",
+      "body": "I love how you broke down redirecting routes. Very insightful!",
+      "email": "laura.taylor@example.com"
+    },
+    {
+      "postId": 4,
+      "id": 9,
+      "name": "Daniel Anderson",
+      "body": "Thanks for explaining ActivatedRoute. The diagrams were great!",
+      "email": "daniel.anderson@example.com"
+    },
+    {
+      "postId": 5,
+      "id": 10,
+      "name": "Sophia Thomas",
+      "body": "The assignment on creating a multi-level menu was challenging but fun!",
+      "email": "sophia.thomas@example.com"
+    },
+    {
+      "postId": 5,
+      "id": 11,
+      "name": "John King",
+      "body": "Great article! I learned a lot from it. Looking forward to more.",
+      "email": "john.king@example.com"
+    },
+    {
+      "postId": 6,
+      "id": 12,
+      "name": "James Martin",
+      "body": "You made routing so much easier to understand. Kudos!",
+      "email": "james.martin@example.com"
+    },
+    {
+      "postId": 6,
+      "id": 13,
+      "name": "Olivia Jackson",
+      "body": "This was a lifesaver for my project. Thank you for sharing!",
+      "email": "olivia.jackson@example.com"
+    },
+    {
+      "postId": 7,
+      "id": 14,
+      "name": "William Harris",
+      "body": "The overview of router-outlet was incredibly helpful. Great job!",
+      "email": "william.harris@example.com"
+    },
+    {
+      "postId": 7,
+      "id": 15,
+      "name": "Isabella White",
+      "body": "I feel so much more confident with Angular routing now. Thanks!",
+      "email": "isabella.white@example.com"
+    },
+    {
+      "postId": 8,
+      "id": 16,
+      "name": "Benjamin Lewis",
+      "body": "Loved the practical examples in the post. Really useful content.",
+      "email": "benjamin.lewis@example.com"
+    },
+    {
+      "postId": 8,
+      "id": 17,
+      "name": "Mia Lee",
+      "body": "The section on navigation links was exactly what I needed. Thanks!",
+      "email": "mia.lee@example.com"
+    },
+    {
+      "postId": 9,
+      "id": 18,
+      "name": "Christopher Hall",
+      "body": "Wildcard routes were so confusing before. Your explanation helped a lot!",
+      "email": "christopher.hall@example.com"
+    },
+    {
+      "postId": 9,
+      "id": 19,
+      "name": "Charlotte Young",
+      "body": "Great work! I enjoyed reading about nested routes in detail.",
+      "email": "charlotte.young@example.com"
+    },
+    {
+      "postId": 10,
+      "id": 20,
+      "name": "Matthew Allen",
+      "body": "This article was very clear and to the point. Thanks for sharing!",
+      "email": "matthew.allen@example.com"
+    },
+    {
+      "postId": 10,
+      "id": 21,
+      "name": "Emma Scott",
+      "body": "I appreciate the depth of your explanation on query parameters.",
+      "email": "emma.scott@example.com"
+    },
+    {
+      "postId": 1,
+      "id": 22,
+      "name": "Liam Evans",
+      "body": "Your routing tutorial was very comprehensive and easy to follow.",
+      "email": "liam.evans@example.com"
+    },
+    {
+      "postId": 1,
+      "id": 23,
+      "name": "Ava Miller",
+      "body": "The concept of route guards is now much clearer to me. Thanks for the insight!",
+      "email": "ava.miller@example.com"
+    },
+    {
+      "postId": 2,
+      "id": 24,
+      "name": "Sophia Clark",
+      "body": "I was stuck on lazy loading but your explanation helped me understand it.",
+      "email": "sophia.clark@example.com"
+    },
+    {
+      "postId": 2,
+      "id": 25,
+      "name": "Ethan Walker",
+      "body": "Really liked how you explained route parameters and query parameters together.",
+      "email": "ethan.walker@example.com"
+    },
+    {
+      "postId": 3,
+      "id": 26,
+      "name": "Isabella Harris",
+      "body": "The navigation strategies you shared were very helpful for my project.",
+      "email": "isabella.harris@example.com"
+    },
+    {
+      "postId": 3,
+      "id": 27,
+      "name": "Lucas King",
+      "body": "This is the best explanation I've seen about Angular routing. Thank you!",
+      "email": "lucas.king@example.com"
+    },
+    {
+      "postId": 4,
+      "id": 28,
+      "name": "Charlotte Thomas",
+      "body": "The tips on handling navigation errors were exactly what I needed.",
+      "email": "charlotte.thomas@example.com"
+    },
+    {
+      "postId": 4,
+      "id": 29,
+      "name": "Oliver Robinson",
+      "body": "Thanks for including practical examples. They made the topic easier to grasp.",
+      "email": "oliver.robinson@example.com"
+    },
+    {
+      "postId": 5,
+      "id": 30,
+      "name": "Amelia Wright",
+      "body": "I liked how you showed the importance of query parameters in Angular routing.",
+      "email": "amelia.wright@example.com"
+    },
+    {
+      "postId": 5,
+      "id": 31,
+      "name": "Sebastian Martinez",
+      "body": "I learned so much from the deep dive into Angular's router-outlet. Thanks!",
+      "email": "sebastian.martinez@example.com"
+    },
+    {
+      "postId": 6,
+      "id": 32,
+      "name": "Mason Moore",
+      "body": "Your explanation on how to handle route navigation is the best I've seen.",
+      "email": "mason.moore@example.com"
+    },
+    {
+      "postId": 6,
+      "id": 33,
+      "name": "Harper Lee",
+      "body": "Thanks for your detailed tutorial. I can now implement route guards in my app.",
+      "email": "harper.lee@example.com"
+    },
+    {
+      "postId": 7,
+      "id": 34,
+      "name": "Ella Jackson",
+      "body": "The real-world examples in this post were so practical and easy to follow.",
+      "email": "ella.jackson@example.com"
+    },
+    {
+      "postId": 7,
+      "id": 35,
+      "name": "Jack Wright",
+      "body": "I appreciate the clarity you provided about lazy loading and how to implement it.",
+      "email": "jack.wright@example.com"
+    },
+    {
+      "postId": 8,
+      "id": 36,
+      "name": "Levi Green",
+      "body": "This content on handling multiple outlets was so informative. Thanks for sharing!",
+      "email": "levi.green@example.com"
+    },
+    {
+      "postId": 8,
+      "id": 37,
+      "name": "Lily Adams",
+      "body": "Great job explaining how to combine different navigation techniques in Angular!",
+      "email": "lily.adams@example.com"
+    },
+    {
+      "postId": 9,
+      "id": 38,
+      "name": "Evelyn Perez",
+      "body": "The explanation on the role of ActivatedRoute in routing was fantastic.",
+      "email": "evelyn.perez@example.com"
+    },
+    {
+      "postId": 9,
+      "id": 39,
+      "name": "Daniel Scott",
+      "body": "Thanks for the in-depth explanation on navigating with parameters.",
+      "email": "daniel.scott@example.com"
+    },
+    {
+      "postId": 10,
+      "id": 40,
+      "name": "Alexander Allen",
+      "body": "I liked the way you approached query parameters. It clarified a lot of doubts for me.",
+      "email": "alexander.allen@example.com"
+    },
+    {
+      "postId": 10,
+      "id": 41,
+      "name": "Avery Lopez",
+      "body": "Your explanations are always so easy to follow. Looking forward to more tutorials!",
+      "email": "avery.lopez@example.com"
+    },
+    {
+      "postId": 1,
+      "id": 42,
+      "name": "Henry Lee",
+      "body": "This was a great tutorial! I learned a lot about routerLink and its use cases.",
+      "email": "henry.lee@example.com"
+    },
+    {
+      "postId": 1,
+      "id": 43,
+      "name": "Sophie Turner",
+      "body": "You made understanding dynamic routes so much easier. Thank you!",
+      "email": "sophie.turner@example.com"
+    },
+    {
+      "postId": 2,
+      "id": 44,
+      "name": "Oliver Walker",
+      "body": "I'm now able to implement nested routes in my app. Thanks for the guidance!",
+      "email": "oliver.walker@example.com"
+    },
+    {
+      "postId": 2,
+      "id": 45,
+      "name": "Charlotte White",
+      "body": "This tutorial helped me understand routing strategies in Angular. Great work!",
+      "email": "charlotte.white@example.com"
+    },
+    {
+      "postId": 3,
+      "id": 46,
+      "name": "Aiden Harris",
+      "body": "Thanks for making query parameters so much easier to grasp. I needed this!",
+      "email": "aiden.harris@example.com"
+    },
+    {
+      "postId": 3,
+      "id": 47,
+      "name": "Liam Young",
+      "body": "Your examples were really helpful. I feel more confident in handling query parameters now.",
+      "email": "liam.young@example.com"
+    },
+    {
+      "postId": 4,
+      "id": 48,
+      "name": "Zoe Thomas",
+      "body": "I loved the way you broke down routing strategies. Very helpful.",
+      "email": "zoe.thomas@example.com"
+    },
+    {
+      "postId": 4,
+      "id": 49,
+      "name": "Landon Jackson",
+      "body": "Thanks for explaining the nuances of ActivatedRoute. It really cleared things up for me.",
+      "email": "landon.jackson@example.com"
+    },
+    {
+      "postId": 5,
+      "id": 50,
+      "name": "Mackenzie Lee",
+      "body": "This was a fantastic resource for implementing a multi-level menu in Angular.",
+      "email": "mackenzie.lee@example.com"
+    }
+  ]
+}
